@@ -127,6 +127,12 @@ textarea {
     font-size: 12px;
 }
 
+.info {
+    font-style: italic;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
 #clean{
     position: absolute;
     top: 5px;

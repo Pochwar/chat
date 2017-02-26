@@ -86,6 +86,15 @@ function htmlEntities(str) {
     return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+function validForm(e,user) {
+    if (e.keyCode == 13 && !e.shiftKey) {
+        speak(user)
+        return false;
+    } else {
+        return true;
+    }
+}
+
 //Triggers pour lancer les fonctions
 document.getElementById('speak1').addEventListener('click', function () { speak(1); }, true);
 document.getElementById('speak2').addEventListener('click', function () { speak(2); }, true);

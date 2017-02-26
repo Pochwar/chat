@@ -22,16 +22,16 @@
             <div id="chatContainer1">
                 <div class="chatWindow">
                     <div id="chat1"></div>
-                    <textarea id="user1" placeholder="Ecrivez un message"></textarea>
-                    <br/>
+                    <textarea id="user1" placeholder="Ecrivez un message" onkeypress="return validForm(event,1)"></textarea>
+                    <p class="info">"Enter" pour valider / "Shift + Enter" pour sauter une ligne</p>
                     <button id="speak1">Envoyer</button>
                 </div>
             </div>
             <div id="chatContainer2">
                 <div class="chatWindow">
                     <div id="chat2"></div>
-                    <textarea id="user2"placeholder="Ecrivez un message"></textarea>
-                    <br/>
+                    <textarea id="user2"placeholder="Ecrivez un message" onkeypress="return validForm(event,2)"></textarea>
+                    <p class="info">"Enter" pour valider / "Shift + Enter" pour sauter une ligne</p>
                     <button id="speak2">Envoyer</button>
                 </div>
             </div>
