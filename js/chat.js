@@ -86,6 +86,7 @@ function htmlEntities(str) {
     return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+//Fonction pour valider le formulaire avec la touche Enter et pour faire un saut de ligne avec Shift + Enter
 function validForm(e,user) {
     if (e.keyCode == 13 && !e.shiftKey) {
         speak(user)
