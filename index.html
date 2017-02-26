@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <title>SchizoChat</title>
+</head>
+
+<body>
+    <button id="clean">Vider le chat</button>
+    <div class="content">
+        <header>
+            <div><img src=img/chat.png class="logo"></div>
+            <div class="banner">
+                <h1>SchizoChat</h1>
+                <p class="baseline">Conversez avec vous-même !</p>
+            </div>
+        </header>
+        <article>
+            <div id="chatContainer1">
+                <div class="chatWindow">
+                    <div id="chat1"></div>
+                    <textarea id="user1" placeholder="Ecrivez un message"></textarea>
+                    <br/>
+                    <button id="speak1">Envoyer</button>
+                </div>
+            </div>
+            <div id="chatContainer2">
+                <div class="chatWindow">
+                    <div id="chat2"></div>
+                    <textarea id="user2"placeholder="Ecrivez un message"></textarea>
+                    <br/>
+                    <button id="speak2">Envoyer</button>
+                </div>
+            </div>
+        </article>
+        <script src="js/chat.js"></script>
+    </body>
+
+    </html>
