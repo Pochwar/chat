@@ -130,7 +130,7 @@ textarea {
 .info {
     font-style: italic;
     font-size: 10px;
-    margin-bottom: 0;
+    margin: 0 0 5px;d
 }
 
 #clean{
